@@ -74,7 +74,7 @@ header{
   /* Showcase */
   #showcase{
     min-height:400px;
-    background:url('/images/showcase.jpg') no-repeat 0 -400px;
+    background:url('') no-repeat 0 -400px;
     text-align:center;
     color:#434547;
   }
