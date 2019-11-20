@@ -1,0 +1,39 @@
+.footer {
+    background-color: #282828;
+    padding: 0px;
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;     
+    border-top:#00868B 3px solid;
+}
+ 
+.socialIcons li a img {
+    vertical-align: middle;
+    padding: 5px;
+    height: 50px;
+}
+
+.footerText {
+    font-family: "Gravity-Regular";
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+}
+
+.centerLinks {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+/* ==========================================================================
+   Your custom CSS styles for smartphones and screens smaller than 480 px
+   ========================================================================== */
+   @media (min-width: 768px) {
+    .bottomLinksDiv div div a {
+        display: inline;
+        text-align: center;
+    }
+}
+
