@@ -1,0 +1,53 @@
+/* ==========================================================================
+   Your custom CSS styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Your custom CSS styles for smartphones and screens smaller than 480 px
+   ========================================================================== */
+
+@media only screen and (max-width: 480px) {
+    /* insert styles here */
+}
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/* Clearfix
+ * Adding a 'clearfix' class will allow parent elements to contain a floated child element
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
