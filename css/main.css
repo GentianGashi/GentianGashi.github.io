@@ -74,9 +74,10 @@ header{
   /* Showcase */
   #showcase{
     min-height:400px;
-    background:url('') no-repeat 0 -400px;
+    background:url('../images/showcase.jpg') no-repeat 0 -400px;
     text-align:center;
-    color:#434547;
+    color:#ffffff;
+    border-bottom:#00868B 3px solid;
   }
   
   #showcase h1{
@@ -88,7 +89,22 @@ header{
   #showcase p{
     font-size:20px;
   }
-  /* wqerqwerqwerqwer */
+
+  /* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
   
 /* ==========================================================================
    Your custom CSS styles for smartphones and screens smaller than 480 px
