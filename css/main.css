@@ -1,12 +1,9 @@
 /* ==========================================================================
    Your custom CSS styles
    ========================================================================== */
-   #showcase img {
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+   html{ height:100%; }
+   body{ min-height:100%; padding:0; margin:0; position:relative; }
+   body::after{ content:''; display:block; height:100px; }
 
    body{
     font: 15px/1.5 Arial, Helvetica,sans-serif;
@@ -105,7 +102,7 @@ header{
 #boxes .box img{
   width:90px;
 }
-  
+
 /* ==========================================================================
    Your custom CSS styles for smartphones and screens smaller than 480 px
    ========================================================================== */
