@@ -22,7 +22,8 @@
         <meta name="description" content="Gentian Gashi's Portfolio">
 
         <link rel="shortcut icon" href="icon.ico">
-        <link rel="stylesheet" href="css/main.css">        
+        <link rel="stylesheet" href="css/main.css">     
+        <link rel="stylesheet" type="text/css" href="css/nav.css">
     </head>
     <!--
         ==========================================================================
@@ -32,16 +33,12 @@
     <body>
         <!-- Header -->
         <header>
-            <div class="container">
-                <nav>
-                    <ul>
-                        <li class="current"><a href="index.html">Home</a></li>
-                        <li><a href="pages/projects.html">Projects</a></li>
-                        <li><a href="pages/about.html">About Me</a></li>
-                        <li><a href="cv/GentianCV.pdf">CV</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <ul class = "topnav">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="pages/projects.html">Projects</a></li>                        
+                <li><a href="cv/GentianCV.pdf">CV</a></li>
+                <li class="right"><a href="pages/about.html">About</a></li>
+            </ul>
         </header>
 
         <div id="main">
@@ -52,29 +49,31 @@
                   <p>Under Development.</p>
                 </div>
             </section>
+
+            <!-- Main HTML Goes Here-->              
             <!-- Projects HTML Goes Here-->
             <section id="boxes">
                     <div class="container">
                       <div class="box">
-                        <a href="https://github.com/GentianGashi/Store-Fishermen-Info-WinForms"><img src="./images/WinForms.png"></img></a>
+                        <a href="https://github.com/GentianGashi/Store-Fishermen-Info-WinForms"><img src="images/WinForms.png"></img></a>
                         <h3>Store-Fishermen-Info-WinForms</h3>
                         <h4>- 2019 -</h4>
                         <p>Basic Windows Form UI That Allows The User To Store Information About Their Fleet And The Fish They Have Caught.</p>
                       </div>
                       <div class="box">
-                            <a href="https://github.com/GentianGashi/LED-Arduino"><img src="./images/720px-Arduino_Logo.svg.png"></img></a>
+                            <a href="https://github.com/GentianGashi/LED-Arduino"><img src="images/720px-Arduino_Logo.svg.png"></img></a>
                         <h3>LED-Arduino</h3>
                         <h4>- 2019 -</h4>
                         <p>Script That Controls Red, Blue, Green, LED Lights On An Arduino.</p>
                       </div>
                       <div class="box">
-                            <a href="https://github.com/GentianGashi/Cramers-Rule-Algorithm"><img src="./images/Python.png"></img></a>
+                            <a href="https://github.com/GentianGashi/Cramers-Rule-Algorithm"><img src="images/Python.png"></img></a>
                         <h3>Cramers-Rule-Algorithm</h3>
                         <h4>- 2019 -</h4>
                         <p>Simple Python Script To Solve Any Cramer's Rule Equation.</p>
                       </div>
                     </div>
-                  </section>
+                  </section>  
         </div>
         <!--
         ==========================================================================

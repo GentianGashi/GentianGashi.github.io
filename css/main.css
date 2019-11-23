@@ -17,56 +17,7 @@
     width:80%;
     margin:auto;
     overflow:hidden;
-  }
-  
-  ul{
-    margin:0;
-    padding:0;
-  }
-
-/* Header **/
-header{
-    background:#282828;
-    color:#ffffff;
-    padding-top:30px;
-    min-height:70px;
-    border-bottom:#00868B 3px solid;
-  }
-  
-  header a{
-    color:#ffffff;
-    text-decoration:none;
-    text-transform: uppercase;
-    font-size:16px;
-  }
-  
-  header li{
-    display:inline;
-    padding: 0 20px 0 20px;
-  }
-  
-  header #branding{
-    float:left;
-  }
-  
-  header #branding h1{
-    margin:0;
-  }
-  
-  header nav{
-    float:left;
-    margin-top:10px;
-  }
-  
-  header .highlight, header .current a{
-    color:#00868B;
-    font-weight:bold;
-  }
-  
-  header a:hover{
-    color:#cccccc;
-    font-weight:bold;
-  }
+  }  
   
   /* Showcase */
   #showcase{
@@ -111,6 +62,7 @@ header{
   display: flex;
 }
 
+/* Headers */
 h3{
   margin: 2px;
   padding: 0;
@@ -120,20 +72,24 @@ h4{
   padding: 0;
 }
 
-#projects .user{
+/* Text */
+#text{
   text-align: center;
-  margin:20px;
+  color: #282828;
+  font-weight: bold;
 }
 
-#projects{
-  text-align:center;
-  color:#282828;
+#text .col{
+  display:inline;
+    padding: 0 15px 0 15px;
 }
 
 .text{
   text-align:center;
   color:#282828;
 }
+
+
 
 /* ==========================================================================
    Your custom CSS styles for smartphones and screens smaller than 480 px
