@@ -179,24 +179,7 @@ ul.List { display:table; margin:0 auto;}
       width:100%;
       margin-bottom:5px;
     } 
-
-    @media all and (max-device-width: 720px){
-      #showcase h1 {
-          font-size: 18px;
-        }
-      }
-  
-  @media all and (max-device-width: 640px){
-    #showcase h1 {
-          font-size: 16px;
-        }
-     }
-  
-  @media all and (max-device-width: 320px){
-    #showcase h1 {
-          font-size: 12px;
-       }
-     }    
+ 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
