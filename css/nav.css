@@ -1,36 +1,58 @@
-header{
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
 
-ul.topnav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+/* Add a black background color to the top navigation */
+.topnav {
   background-color: #282828;
-
+  overflow: hidden;
   border-bottom: #00868B 3px solid;
 }
 
-ul.topnav li {float: left;}
-
-ul.topnav li a {
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
   display: block;
-  color: white;
+  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #111;}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
-ul.topnav li a.active {background-color: #00868B;}
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #00868B;
+  color: white;
+}
 
-ul.topnav li.right {float: right;}
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
 
 @media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
 }
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.topnav a.right {float: right;}

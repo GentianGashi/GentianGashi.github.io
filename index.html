@@ -24,6 +24,8 @@
         <link rel="shortcut icon" href="icon.ico">
         <link rel="stylesheet" href="css/main.css">     
         <link rel="stylesheet" type="text/css" href="css/nav.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <!--
         ==========================================================================
@@ -36,14 +38,29 @@
         <div id="main">            
             <!-- Main HTML Goes Here-->
             <section id="showcase">
-                    <header>
-                        <ul class = "topnav">
-                             <li><a class="active" href="index.html">Home</a></li>
-                            <li><a href="pages/about.html">About</a></li>
-                             <li><a href="pages/projects.html">Projects</a></li>                        
-                            <li class="right"><a href="MyCV/GentianCV.pdf">CV</a></li>
-                        </ul>
-                    </header>
+                <header>
+                    <div class="topnav" id="myTopnav">
+                        <a class="active" href="index.html">Home</a>
+                        <a href="pages/about.html">About</a>
+                        <a href="pages/projects.html">Projects</a>                       
+                        <a class="right"  href="MyCV/GentianCV.pdf">CV</a>            
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                        </a>
+                    </div>                                
+                    <!-- Nav Script -->   
+                    <script>
+                    function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                    x.className += " responsive";
+                    } else {
+                    x.className = "topnav";
+                        }
+                    }
+                    </script>
+            </header>
+            <!-- End Of Nav-->
                 <div class="container">
                   <h1>Hi. My name is Gentian Gashi<span class="blink">_</span></h1> 
                   <p>Under Development.</p>
