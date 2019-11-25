@@ -112,6 +112,7 @@ ul.List { display:table; margin:0 auto;}
   border-radius: 50%;
   padding: 5px;
   height: 150px;
+  margin-top: 20px;
 }
 
 #main .title{
