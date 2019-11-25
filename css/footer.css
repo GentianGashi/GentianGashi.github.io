@@ -13,7 +13,8 @@ footer{
 .socialIcons li a img {
     vertical-align: middle;
     padding: 5px;
-    height: 50px;
+    height: 60px;
+    margin-top: 2px;
 }
 
 .footerText {
