@@ -4,6 +4,7 @@
   background-color: #282828;
   overflow: hidden;
   border-bottom: #00868B 3px solid;
+  z-index: 999;
 }
 
 /* Style the links inside the navigation bar */

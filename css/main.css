@@ -151,7 +151,15 @@ ul.List { display:table; margin:0 auto;}
 /* Center website */
 .projects {
   max-width: 1000px;
-  margin: auto;
+  margin: auto;  
+}
+
+.projects img{
+  height: 200px;
+}
+
+.projects img:hover{
+  opacity: 0.5;
 }
 
 .projects h1 {
