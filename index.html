@@ -21,7 +21,7 @@
         <title>Gentian Gashi | Home</title>
         <meta name="description" content="Gentian Gashi's Portfolio">
 
-        <link rel="shortcut icon" href="icon.ico">
+        <link rel="shortcut icon" href="images/icon.ico">
         <link rel="stylesheet" href="css/main.css">     
         <link rel="stylesheet" type="text/css" href="css/nav.css">
 
@@ -33,58 +33,41 @@
         ========================================================================== 
         -->
     <body>
-        <!-- Header -->      
-
-        <div id="projects">            
-            <!-- Main HTML Goes Here-->
-            <section id="showcase">
-                <header>
-                    <div class="topnav" id="myTopnav">
-                        <a class="active" href="index.html">Home</a>
-                        <a href="pages/about.html">About</a>
-                        <a href="pages/projects.html">Projects</a>                       
-                        <a href="MyCV/GentianCV.pdf">CV</a>            
-                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                        <i class="fa fa-bars"></i>
-                        </a>
-                    </div>                                
-                    <!-- Nav Script -->   
-                    <script>
-                    function myFunction() {
-                    var x = document.getElementById("myTopnav");
-                    if (x.className === "topnav") {
-                    x.className += " responsive";
-                    } else {
-                    x.className = "topnav";
-                        }
-                    }
-                    </script>
+        
+    <!-- Header -->      
+        <section id="showcase">
+            <header>
+                <div class="topnav" id="myTopnav">
+                    <a class="active" href="index.html">Home</a>
+                    <a href="pages/about.html">About</a>
+                    <a href="pages/projects.html">Projects</a>                       
+                    <a href="MyCV/GentianCV.pdf">CV</a>            
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                    </a>
+                </div>                                               
             </header>
-            <!-- End Of Nav-->
-                <div class="container">
-                  <h1>Hi. My name is Gentian Gashi<span class="blink">_</span></h1> 
-                  <p>Under Development.</p>
-                </div>
-            </section>            
-            <!-- Main HTML Goes Here-->                                           
-        </div>
-        <!--
+        <!-- End Of Nav-->
+            <div class="container">
+            <h1>Hi. My name is Gentian Gashi<span class="blink">_</span></h1> 
+            <p>Under Development.</p>
+            </div>
+        </section>            
+        <!-- Main HTML Goes Here-->                                           
+            <!--
         ==========================================================================
              Footer
         ========================================================================== 
         -->
         <link rel="stylesheet" type="text/css" href="css/footer.css"/>
         <footer class="footer container-fluid">
-            <div class = "footerText">
-            <p>STAY CONNECTED</p>
-            </div>
             <div class="container extraSpace">
                 <ul class="centerLinks socialIcons">
                     <li style="display:inline-block">
                         <a href="https://twitter.com/GentianGashi_"><img src="./images/icons/twitter.png"></img></a>
                     </li>                    
                     <li style="display:inline-block">
-                        <a href="https://www.instagram.com/gentian.kxnttttt/?hl=en"><img src="./images/icons/instagram.png"></img></a>
+                        <a href="https://www.instagram.com/g.entian/"><img src="./images/icons/instagram.png"></img></a>
                     </li>
                     <li style="display:inline-block">
                         <a href="https://github.com/GentianGashi"><img src="./images/icons/github.png"></img></a>
@@ -100,11 +83,7 @@
             Scripts
         ========================================================================== 
         -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-        <script src="includes/jquery.min.js"></script>
-        <script src="js/footerShift.js" type="text/javascript"></script>  
+        <script src="js/navScroll.js" type="text/javascript"></script>  
+        <script src="js/navMobile.js" type="text/javascript"></script>  
     </body>
 </html>

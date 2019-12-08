@@ -1,4 +1,6 @@
-
+#myTopnav {
+  transition: top 0.3s;
+}
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #282828;
@@ -6,7 +8,6 @@
   border-bottom: #00868B 3px solid;
   z-index: 999;
 }
-
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;

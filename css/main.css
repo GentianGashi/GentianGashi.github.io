@@ -19,9 +19,7 @@
     overflow:hidden;
   }  
   
-  /* Showcase */
-
-  
+  /* Showcase */  
   #showcase{
     background-image: url('../images/highres.jpg');
     height: 100vh;
@@ -230,8 +228,6 @@ ul.List { display:table; margin:0 auto;}
     header #branding,
     header nav,
     header nav li,
-    #newsletter h1,
-    #newsletter form,
     #boxes .box,
     article#main-col,
     aside#sidebar{
@@ -246,18 +242,7 @@ ul.List { display:table; margin:0 auto;}
   
     #showcase h1{
       margin-top:40px;
-    }
-  
-    #newsletter button, .quote button{
-      display:block;
-      width:100%;
-    }
-  
-    #newsletter form input[type="email"], .quote input, .quote textarea{
-      width:100%;
-      margin-bottom:5px;
-    } 
- 
+    }  
 /* ==========================================================================
    Helper classes
    ========================================================================== */
