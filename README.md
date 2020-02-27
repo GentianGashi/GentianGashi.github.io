@@ -3,10 +3,7 @@ My Personal Website - still in early development so prone to changes.
 
 ## Getting Started
 
-Pages Folder - Includes all the pages (exluding index page)
-CSS Folder - Includes all the CSS used in the website
-js Folder - Includes all the JavaScript used in the website
-Images Folder - Includes all the images
+All html pages (excluding index) are in the /pages/ directory.
 
 ## Authors
 
