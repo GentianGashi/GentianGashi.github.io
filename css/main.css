@@ -11,15 +11,15 @@
     margin:0;
     background-color:#f4f4f4;
   }
-  
+
   /* Global */
   .container{
     width:80%;
     margin:auto;
     overflow:hidden;
-  }  
-  
-  /* Showcase */  
+  }
+
+  /* Showcase */
   #showcase{
     background-image: url('../images/highres.jpg');
     height: 100vh;
@@ -35,14 +35,14 @@
   #showcase h1{
     font-size:calc(100% + 3vw);
   }
-  
+
   #showcase .container{
     position: absolute;
     top: 35%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
   }
-  
+
   #showcase p{
     font-size:calc(100% + 1vw);
   }
@@ -94,10 +94,11 @@ div .text {
 }
 
 h3{
-  font-weight: bold;}
+  font-weight: bold;
+}
 
 
-ul.List { display:table; margin:0 auto;} 
+ul.List { display:table; margin:0 auto;}
 
 #main img {
   display: block;
@@ -149,7 +150,7 @@ ul.List { display:table; margin:0 auto;}
 /* Center website */
 .projects {
   max-width: 1000px;
-  margin: auto;  
+  margin: auto;
 }
 
 .projects img{
@@ -163,40 +164,35 @@ ul.List { display:table; margin:0 auto;}
 .projects h1 {
   font-size: 50px;
   text-align: center;
+  font-weight: bold;
   word-break: break-all;
+}
+
+.projects h2{
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 .projects h3{
   text-align: center;
+  font-weight: bold;
+  font-size: 17px;
 }
+
 
 .row {
-  margin: 8px -16px;
+  margin-bottom: 1rem;
 }
-
-/* Add padding BETWEEN each column (if you want) */
-.row,
-.row > .column {
-  padding: 8px;
+.row .row {
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
-
-/* Create four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25%;
-}
-
-/* Clear floats after rows */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Content */
-.content {
-  background-color: white;
-  padding: 10px;
+[class*="col-"] {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(255,255,255, 0.9);
+  border: 1px solid rgba(86, 61, 124, .2);
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -235,14 +231,14 @@ ul.List { display:table; margin:0 auto;}
       text-align:center;
       width:100%;
     }
-  
+
     header{
       padding-bottom:20px;
     }
-  
+
     #showcase h1{
       margin-top:40px;
-    }  
+    }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
