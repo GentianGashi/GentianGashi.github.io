@@ -1,5 +1,6 @@
 # GentianGashi.github.io
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Website](https://img.shields.io/website?label=GENTIANGASHI.ME&style=flat-square&url=http%3A%2F%2Fgentiangashi.me%2F)](http://gentiangashi.me/)
 
 ## Table of Contents
 <!--ts-->
